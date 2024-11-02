@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.Models
+namespace Todo.Models.Enum;
+
+public enum Priority
 {
-    internal class Entity
-    {
-    }
+    Low,
+    Normal,
+    High
 }
